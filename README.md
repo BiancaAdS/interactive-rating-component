@@ -37,6 +37,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 - HTML
 - CSS
+- BOOTSTRAP
 - JS
 
 ## Author
