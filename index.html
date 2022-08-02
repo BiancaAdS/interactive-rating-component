@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet"> 
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <main>
+
+    <div class="container">
+      
+      <div id="rate-box" class="rating-box">
+          <div class="box-icon">
+
+            <img class="star-icon" src="./assets/images/icon-star.svg" alt="Icon Star">
+
+          </div>
+          <div class="text-box">
+            <h1 class="text-title">How did we do?</h1>
+            <p class="text-p">Please let us know how we did with your support request. All feedback is appreciated 
+              to help us improve our offering!</p>
+          </div>
+
+          <div class="btn-group btn-group-toggle btn-radio" data-toggle="buttons">
+            <label class="btn btn-state rounded-circle">
+              <input type="radio" name="options" id="option1" autocomplete="off"> <h6 class="text-submit">1</h6> 
+            </label>
+            <label class="btn btn-state rounded-circle">
+              <input type="radio" name="options" id="option2" autocomplete="off"> <h6 class="text-submit">2</h6>
+            </label>
+            <label class="btn btn-state rounded-circle">
+              <input type="radio" name="options" id="option3" autocomplete="off"> <h6 class="text-submit">3</h6>
+            </label>
+            <label class="btn btn-state rounded-circle">
+              <input type="radio" name="options" id="option4" autocomplete="off"> <h6 class="text-submit">4</h6>
+            </label>
+            <label class="btn btn-state rounded-circle">
+              <input type="radio" name="options" id="option5" autocomplete="off"> <h6 class="text-submit">5</h6>
+            </label>
+          </div>
+
+          <div class="btn-container">
+            <button class="btn-submit text-center" type="button" onclick="submit()">SUBMIT</button>
+
+          </div>
+
+      </div>
+
+      <div id="result-box" class="result-box">
+
+        <div class="box-thankYou">
+
+          <img class="thank-icon" src="./assets/images/illustration-thank-you.svg" alt="Illustration Thank You">
+
+        </div>
+        
+        <h2 class="text-title result">
+          You selected <p id="select-rate" class="select-rate result-rate"></p> out of 5
+        </h2>
+
+        <div class="box-thank">
+          <h5 class="text-thank">Thank you!</h5>
+          
+          <p class="text-p submit">
+            We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!
+  
+          </p>
+        </div> 
+    </div>
+
+      
+    </div>
+      
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/BiancaAdS">@BiancaAdS</a>.
+    </div>
+  </main>
+  
+</body>
+<script src="./js/main.js"></script>
+</html>
+
+
+          
