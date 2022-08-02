@@ -29,7 +29,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/BiancaAdS/interactive-rating-component)
-- Live Site URL: [Live Site URL](https://interactive-rating-component-six-rose.vercel.app/)
+- Live Site URL: [Live Site URL](https://interactive-rating-component-biancaads.vercel.app/)
 
 ## My process
 
